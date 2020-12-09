@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-
+  // tslint:disable-next-line:no-inferrable-types
+  inputValue: string = 'my site';
   constructor() { }
 
   ngOnInit(): void {
